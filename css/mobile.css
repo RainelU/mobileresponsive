@@ -1,0 +1,177 @@
+:root{
+	--black:black;
+	--white:white;
+	--grey:grey;
+	--green:green;
+	--royal:royalblue;
+	--antiquewhite:antiquewhite;
+	--brown:brown;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	line-height: 2;
+}
+
+.monospace{
+	font-family: 'monospace';
+}
+
+.arial{
+	font-family: 'Arial';
+	font-weight: 200;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.margin-b{
+	margin-bottom: 20px;
+}
+
+.margin-t{
+	margin-top: 30px;
+}
+
+.radius{
+	border-radius: 50%;
+}
+
+.padding{
+	padding: 10px;
+}
+
+.font-size-30{
+	font-size: 30px;
+}
+
+.bg-royal{
+	background: var(--royal);
+	color: var(--white);
+}
+
+.bg-green{
+	background: var(--brown);
+	color: var(--white);
+}
+
+.bg-black{
+	background: var(--black);
+	color: var(--white);
+}
+
+.c-white{
+	color: var(--white);
+}
+
+.radius-5p{
+	border-radius: 5px;
+}
+
+/*****  NAVBAR  ******/
+.navbar-nav{
+	width: 100%;
+	background: var(--black);
+	position: fixed;
+	z-index: 1;
+}
+
+.navbar{
+	display: flex;
+	flex-direction: wrap;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style: none;
+	font-family: 'monospace';
+	font-size: 13px;
+}
+
+.navbar-li{
+	border-right: 1px solid var(--white);
+}
+
+.navbar-a{
+	text-decoration: none;
+	color: var(--white);
+	opacity: .8;
+}
+
+/*********== IMG NEW YORK BACKGROUND ==**********/
+
+.img-header{
+	background: url(../img/bg.jpg);
+	height: 300px;
+}
+
+.white-h2{
+	background-color: var(--white);
+	position: relative;
+	top: 30%;
+}
+
+.white-h3{
+	background-color: var(--white);
+	position: relative;
+	top: 33%;
+}
+
+/*****************==	 HEADING ONE 	==*************/
+
+.heading-1{
+	font-size: 11px;
+	padding: 30px;
+}
+
+.c-grey{
+	color: var(--grey);
+}
+
+.p-img-1{
+	font-size: 14px;
+}
+
+.img-1{
+	height: 200px;
+	width: auto;
+	position: relative;
+	left: 18%;
+}
+
+/****************== HEADING TWO ==****************/
+
+.heading-2{
+	font-size: 11px;
+	padding: 30px;
+}
+
+.bg-royalblue-div-heading2{
+	background: var(--royal);
+	color: var(--antiquewhite);
+}
+
+.img-2{
+	height: 200px;
+	width: auto;
+	position: relative;
+	left: 15%;
+}
+
+/*************== PORTFOLIO ==****************/
+
+.portfolio{
+	padding: 20px;
+}
+
+.img-archor{
+	width:100%;
+	height:230px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
