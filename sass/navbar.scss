@@ -1,0 +1,28 @@
+.navbar-nav{
+	width: 100%;
+	background: var(--black);
+	position: fixed;
+	z-index: 1;
+	line-height: 3;
+
+
+.navbar{
+	display: flex;
+	flex-direction: wrap;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style: none;
+	font-family: 'monospace';
+	font-size: 13px;
+}
+
+.navbar-li{
+	border-right: 1px solid var(--white);
+}
+
+.navbar-a{
+	text-decoration: none;
+	color: var(--white);
+	opacity: .8;
+}
+}

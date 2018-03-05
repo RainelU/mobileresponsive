@@ -1,0 +1,27 @@
+section{
+	line-height: 2;
+.img-header{
+	background: url(../img/bg.jpg);
+	height: 300px;
+}
+
+.monospace{
+	font-family: 'monospace';
+}
+
+.align-center{
+	text-align: center;
+}
+
+.white-h2{
+	background-color: var(--white);
+	position: relative;
+	top: 30%;
+}
+
+.white-h3{
+	background-color: var(--white);
+	position: relative;
+	top: 33%;
+}
+}
